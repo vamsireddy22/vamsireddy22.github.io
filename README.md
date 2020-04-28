@@ -1,3 +1,3 @@
 ## Personal Website
 
-[link](https://vamsireddy22.github.io)
+[LINK](https://vamsireddy22.github.io)
