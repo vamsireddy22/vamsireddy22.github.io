@@ -1,0 +1,34 @@
+# Profile information
+name: Vamsi Reddy
+title: Vamsi Reddy
+description: "Vamsi Reddy - B.Tech in Computer Science at GPREC, Kurnool"
+permalink: ':title/'
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://vamsireddy22.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+
+# Social
+facebook: vamsi.reddy.1217
+twitter: VamsiReddy8142
+github: vamsireddy22
+linkedin: in/bheemireddy-vamsi-418486167/
+instagram : vamsi_reddy_22
+
+# Contact form
+email: obulreddy1999@gmail.com
+
+# Comments
+discus-identifier: vamsi22-1 # Add your Disqus identifier
+
+# Paginate
+paginate: 5
+paginate_path: /page:num/
+
+# Build settings
+markdown: kramdown
+plugins:
+  - jekyll-feed
+  - jekyll-paginate
+exclude:
+  - Gemfile
+  - Gemfile.lock
+include: [_pages]

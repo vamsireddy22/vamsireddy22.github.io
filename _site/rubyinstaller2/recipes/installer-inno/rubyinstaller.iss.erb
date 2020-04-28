@@ -1,0 +1,157 @@
+; RubyInstaller - InnoSetup Script (base)
+; This script is used to build Ruby Installers for Windows
+; Copyright (c) 2009-2012 Jon Maken
+; Copyright (c) 2009-2012 Gordon Thiesfeld
+; Copyright (c) 2009-2012 Luis Lavena
+; Copyright (c) 2012 Yusuke Endoh
+; Revision: 2012-05-28 13:57:37 -0600
+; License: Modified BSD License
+
+<% require "etc" %>
+<% with_msys = package.respond_to?(:msysdir) %>
+
+#define RubyVersion <%=q package.rubyver %>
+#define PackageRelease <%=q package.pkgrel %>
+#define RubyBuildPlatform <%=q package.ruby_arch %>
+
+; Build Installer details using above values
+#define InstallerName "Ruby " + <%=q package.packagever %> + "-" + <%=q package.arch %> + "<%= " with MSYS2" if with_msys %>"
+#define InstallerPublisher "RubyInstaller Team"
+#define InstallerHomepage "http://rubyinstaller.org"
+
+#define CurrentYear GetDateTimeString('yyyy', '', '')
+#define PackageBaseId "MRI"
+
+#define MsysDir <%=q( with_msys ? package.msysdir : '' )%>
+
+[Setup]
+DefaultDirName=<%=q package.default_instdir %>
+
+; NOTE: The value of AppId uniquely identifies this application.
+; Do not use the same AppId value in installers for other applications!
+AppId=<%=q "RubyInstaller-#{package.rubyver2}-#{package.ruby_arch}" %>
+AppName={#InstallerName}
+AppVerName={#InstallerName}
+AppPublisher={#InstallerPublisher}
+AppPublisherURL={#InstallerHomepage}
+AppVersion=<%=q package.packagever %>
+DefaultGroupName={#InstallerName}
+DisableWelcomePage=true
+DisableProgramGroupPage=true
+LicenseFile=<%= ovl_expand_file("recipes/sandbox/LICENSE.txt") %>
+Compression=lzma2/ultra64
+SolidCompression=true
+CompressionThreads=<%= Etc.nprocessors %>
+LZMANumBlockThreads=<%= Etc.nprocessors %>
+LZMAUseSeparateProcess=yes
+AlwaysShowComponentsList=false
+DisableReadyPage=true
+InternalCompressLevel=ultra64
+VersionInfoCompany={#InstallerPublisher}
+VersionInfoCopyright=(c) {#CurrentYear} {#InstallerPublisher}
+VersionInfoDescription=Ruby Programming Language for Windows
+VersionInfoTextVersion=<%=q package.packagever %>
+VersionInfoVersion=<%=q(package.rubyver[/^\d+\.\d+\.\d+/] || package.rubyver2)%>
+UninstallDisplayIcon={app}\bin\ruby.exe
+WizardStyle=modern
+WizardImageFile=<%=q ovl_expand_file("recipes/installer-inno/images/wizard-large.bmp") %>
+WizardSmallImageFile=<%=q ovl_expand_file("recipes/installer-inno/images/wizard-logo.bmp") %>
+PrivilegesRequired=lowest
+ChangesAssociations=yes
+ChangesEnvironment=yes
+MinVersion=6.0
+#if Defined(SignPackage) == 1
+SignTool=risigntool sign /a /d $q{#InstallerName}$q /du $q{#InstallerHomepage}$q /t $qhttp://timestamp.comodoca.com/authenticode$q $f
+#endif
+
+[Languages]
+Name: en; MessagesFile: compiler:Default.isl
+
+[Messages]
+en.WelcomeLabel1=Welcome to the [name] Installer
+en.WelcomeLabel2=This will install [name/ver] on your computer. Please close all other applications before continuing.
+en.WizardLicense={#InstallerName} License Agreement
+en.LicenseLabel=
+en.LicenseLabel3=Please read the following License Agreement and accept the terms before continuing the installation.
+en.LicenseAccepted=I &accept the License
+en.LicenseNotAccepted=I &decline the License
+en.WizardSelectDir=Installation Destination and Optional Tasks
+en.SelectDirDesc=
+en.SelectDirLabel3=Setup will install [name] into the following folder. Click Install to continue or click Browse to use a different one.
+en.SelectDirBrowseLabel=Please avoid any folder name that contains spaces (e.g. Program Files).
+en.DiskSpaceMBLabel=Required free disk space: ~[mb] MB
+en.DirExists=The folder:%n%n%1%n%nalready exists. Would you like to install to that folder anyway?%n%nOverwriting a Ruby version with the same major and minor version usually works, but for example Ruby-2.5.0 over 2.4.0 doesn't.
+
+[CustomMessages]
+AddPath=Add Ruby executables to your PATH
+AddPathHint=Select to make this Ruby installation available from everywhere.%nThis may affect existing Ruby installations.
+AssociateExt=Associate .rb and .rbw files with this Ruby installation
+AssociateExtHint=Select to enable running your Ruby scripts by double clicking%nor simply typing the script name at your shell prompt. This may%naffect existing Ruby installations.
+DevkitInstall=Run 'ridk install' to setup MSYS2 and development toolchain.
+DevkitInstall2=MSYS2 is required to install gems with C extensions.
+DevkitInstallHint=The MSYS2 development tools consists of the GCC compiler suite and%nmany common UNIX tools required to build OpenSource software.%nIt is safe to run `ridk install` even if MSYS2 is already installed.
+DefaultUtf8=Use UTF-8 as default external encoding.
+DefaultUtf8Hint=This sets the environment variable 'RUBYOPT=-Eutf-8'.%nRubyInstaller-2.6 will probably set this as default.%nSee the wiki for more information.
+MouseoverHint=TIP: Mouse over the above options for more detailed information.
+WebSiteLabel=Web Site:
+SupportGroupLabel=Support group:
+WikiLabel=Wiki:
+InteractiveRubyTitle=Interactive Ruby
+RubyGemsDocumentationServerTitle=RubyGems Documentation Server
+StartCmdPromptWithRubyTitle=Start Command Prompt with Ruby
+DocumentationTitle=Documentation
+APIReferenceTitle=Ruby %1 API Reference
+TheBookofRubyTitle=The Book of Ruby
+
+[Files]
+#define InstallerFileList "filelist-ruby-" + RubyVersion + "-" + RubyBuildPlatform + ".iss"
+#include InstallerFileList
+
+[Registry]
+<% [["HKLM", "IsAdmin"],
+    ["HKCU", "IsNotAdmin"]].each do |regroot, chkadmin| %>
+
+<% [[".rb", "Ruby", "ruby.exe"],
+    [".rbw", "RubyW", "rubyw.exe"]].each do |extension, rubyname, rubyexe| %>
+
+; .rb, *.rbw file for admin+nonadmin
+Root: <%= regroot %>; Subkey: Software\Classes\<%= extension %>; ValueType: string; ValueName: ; ValueData: <%= rubyname %>File; Flags: uninsdeletevalue uninsdeletekeyifempty; Check: <%= chkadmin %> and IsAssociated
+Root: <%= regroot %>; Subkey: Software\Classes\<%= rubyname %>File; ValueType: string; ValueName: ; ValueData: <%= rubyname %> File; Flags: uninsdeletekey; Check: <%= chkadmin %> and IsAssociated
+Root: <%= regroot %>; Subkey: Software\Classes\<%= rubyname %>File\DefaultIcon; ValueType: string; ValueName: ; ValueData: {app}\bin\<%= rubyexe %>,0; Check: <%= chkadmin %> and IsAssociated
+Root: <%= regroot %>; Subkey: Software\Classes\<%= rubyname %>File\shell\open\command; ValueType: string; ValueName: ; ValueData: """{app}\bin\<%= rubyexe %>"" ""%1"" %*"; Check: <%= chkadmin %> and IsAssociated
+
+<% end %>
+
+; RubyInstaller identification for admin+nonadmin
+Root: <%= regroot %>; Subkey: Software\RubyInstaller; ValueType: string; ValueName: ; ValueData: ; Flags: uninsdeletevalue uninsdeletekeyifempty; Check: <%= chkadmin %>
+Root: <%= regroot %>; Subkey: Software\RubyInstaller\{#PackageBaseId}; ValueType: string; ValueName: ; ValueData: ; Flags: uninsdeletevalue uninsdeletekeyifempty; Check: <%= chkadmin %>
+Root: <%= regroot %>; Subkey: Software\RubyInstaller\{#PackageBaseId}\{#RubyVersion}; ValueType: string; ValueName: ; ValueData: ; Flags: uninsdeletekey; Check: <%= chkadmin %>
+Root: <%= regroot %>; Subkey: Software\RubyInstaller\{#PackageBaseId}\{#RubyVersion}; ValueType: string; ValueName: InstallLocation ; ValueData: {app}; Check: <%= chkadmin %>
+Root: <%= regroot %>; Subkey: Software\RubyInstaller\{#PackageBaseId}\{#RubyVersion}; ValueType: string; ValueName: InstallDate ; ValueData: {code:GetInstallDate}; Check: <%= chkadmin %>
+Root: <%= regroot %>; Subkey: Software\RubyInstaller\{#PackageBaseId}\{#RubyVersion}; ValueType: string; ValueName: PackageRelease ; ValueData: {#PackageRelease}; Check: <%= chkadmin %>
+Root: <%= regroot %>; Subkey: Software\RubyInstaller\{#PackageBaseId}\{#RubyVersion}; ValueType: string; ValueName: BuildPlatform ; ValueData: {#RubyBuildPlatform}; Check: <%= chkadmin %>
+
+<% end %>
+
+[Icons]
+Name: {group}\{cm:InteractiveRubyTitle}; Filename: {app}\bin\irb.cmd; Parameters: -rirb/completion; IconFilename: {app}\bin\ruby.exe
+Name: {group}\{cm:DocumentationTitle}\{cm:APIReferenceTitle,{#RubyVersion}}; Filename: {app}\share\doc\ruby\html\index.html; IconFilename: {app}\share\doc\ruby\html\images\ruby-doc.ico; Components: rdoc
+Name: {group}\{cm:RubyGemsDocumentationServerTitle}; Filename: {app}\bin\gem.cmd; Parameters: server --launch; IconFilename: {app}\share\doc\ruby\html\images\ruby-doc.ico; Flags: runminimized
+Name: {group}\{cm:StartCmdPromptWithRubyTitle}; Filename: {sys}\cmd.exe; Parameters: /E:ON /K {app}\bin\setrbvars.cmd; WorkingDir: {%HOMEDRIVE}{%HOMEPATH}; IconFilename: {sys}\cmd.exe
+Name: {group}\{cm:UninstallProgram,{#InstallerName}}; Filename: {uninstallexe}
+
+[Components]
+Name: "ruby"; Description: "Ruby-<%= package.rubyver %> base files"; Types: custom; Flags: fixed
+Name: "rdoc"; Description: "Ruby RI and HTML documentation"; Types: custom; Flags: disablenouninstallwarning
+<% if with_msys %>
+Name: "msys2"; Description: "MSYS2 development toolchain <%= Time.now.strftime("%Y-%m-%d") %>"; Types: custom; Flags: disablenouninstallwarning
+<% end %>
+
+[Types]
+Name: "custom"; Description: "Default installation"; Flags: iscustom
+
+
+[Code]
+<%= ovl_read_file "recipes/installer-inno/util.iss" %>
+<%= ovl_read_file "recipes/installer-inno/ri_gui.iss" %>
+<%= ovl_read_file "recipes/installer-inno/events.iss" %>

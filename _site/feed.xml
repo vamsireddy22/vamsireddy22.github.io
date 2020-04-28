@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-04-28T11:38:55+05:30</updated><id>http://localhost:4000/</id><title type="html">Vamsi Reddy</title><subtitle>Vamsi Reddy - B.Tech in Computer Science at GPREC, Kurnool</subtitle><entry><title type="html">Origination of HackVerse</title><link href="http://localhost:4000/origination-of-hackverse/" rel="alternate" type="text/html" title="Origination of HackVerse" /><published>2020-04-04T21:32:40+05:30</published><updated>2020-04-04T21:32:40+05:30</updated><id>http://localhost:4000/origination-of-hackverse</id><content type="html" xml:base="http://localhost:4000/origination-of-hackverse/">&lt;p&gt;I had attended various hackathons before - major ones being &lt;a href=&quot;https://www.codefundo.io/&quot;&gt;code.fun.do&lt;/a&gt;, &lt;a href=&quot;https://www.sih.gov.in/&quot;&gt;Smart India Hackathon&lt;/a&gt;, &lt;a href=&quot;https://hackinout.co/&quot;&gt;HackInOut&lt;/a&gt; and was part of organizing some small ones organized by the technical clubs in college. In the pre-final year, our team didn’t get selected for Smart India Hackathon, that’s when we came to know about student-run hackathons in India. Honestly, it was a new concept for all of us and seeing the sponsors, plan and all seemed very promising. We applied to various hackathons, got selected, however, we couldn’t attend any of those due to some or the other reasons.&lt;/p&gt;
+
+&lt;p&gt;Meanwhile, the semester was near the ending and Core Transfer happened for a Technical Club named &lt;a href=&quot;http://ie.nitk.ac.in&quot;&gt;IE NITK&lt;/a&gt; for which I was part of and we were discussing different possible solutions on how we could make a better impact with our events on the technical community of the college and possibly nation-wide. That’s when I remembered about the student-run hackathons. Definitely, hackathons were great means to make an impact in the lives of the students and the learning curve students get by hackathons is immense and not to forget the experience - one of a lifetime in students’ academics life!&lt;/p&gt;
+
+&lt;p&gt;That’s when we pitched about the nationwide hackathon in college to the core members, One of the junior core members raised a question: “Isn’t this too much that you’re aiming?”. I replied saying “If so many other colleges could do, why not us?” That’s when we faintly discussed a nation-wide hackathon to happen in the college. The initial team was formed of diverse people in terms of skills needed for it to be a national level hackathon and not a small one. That was when I was reading a lot of blogs &amp;amp; resources online to organize hackathons of nation wide scale. Meanwhile, another member in the team, Namrata contacted various friends in other colleges who organized such hackathons to get an idea of the process.&lt;/p&gt;
+
+&lt;p&gt;We decided on the following things for HackVerse:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Completely free for all hackers&lt;/li&gt;
+  &lt;li&gt;Host around 250 hackers from all over India&lt;/li&gt;
+  &lt;li&gt;Have some technical talks &amp;amp; workshops&lt;/li&gt;
+  &lt;li&gt;Judges &amp;amp; mentors from prominent industry/startups&lt;/li&gt;
+  &lt;li&gt;Lots of Goodies for all&lt;/li&gt;
+  &lt;li&gt;Huge Prizes&lt;/li&gt;
+  &lt;li&gt;Great Experience&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The aim was to make it the best technical event NITK has ever seen (beat the technical fest - Engineer too), make it the finest hackathon in India.&lt;/p&gt;
+
+&lt;p&gt;Since, it’s going to be an event which would happen for the first time, it needed appropriate branding and hence we were pondering over the name and the logo. After discussing over 25+ names, trying out different designs in the logo, we settled up for the name &lt;strong&gt;HackVerse&lt;/strong&gt; and the following logo:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/hackverse/hackverse-logo.png&quot; alt=&quot;HackVerse logo&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;More about HackVerse at: &lt;a href=&quot;https://hackverse.nitk.ac.in/&quot;&gt;https://hackverse.nitk.ac.in/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;The hackathon was supported by the &lt;a href=&quot;https://dj.nitk.ac.in/&quot;&gt;Diamond Jubilee Commitee&lt;/a&gt; of the college and happened to be an Institute Level Event. HackVerse was a huge success, and it defintely turned out to be one of the biggest and finest student-run hackathon across India. HackVerse offered prizes worth more than 1 crore, got support from 30+ national+international sponsors, 2400+ registrations, had amazing 6 technical talks, was judged by 10+ executives from various multinational companies and startups.&lt;/p&gt;
+
+&lt;p&gt;The team was definitely in-experienced in all terms (marketing, publicity, operations, hospitality, etc) for such a big event but the zeal among the members and the aim for which the hackathon was happening kept all of them going and the success had to happen. Cheers to each member in the team for all their contributions!&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/hackverse/hackverse-team.JPG&quot; alt=&quot;HackVerse Team&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Full team at: &lt;a href=&quot;https://hackverse.nitk.ac.in/team&quot;&gt;https://hackverse.nitk.ac.in/team&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">I had attended various hackathons before - major ones being code.fun.do, Smart India Hackathon, HackInOut and was part of organizing some small ones organized by the technical clubs in college. In the pre-final year, our team didn’t get selected for Smart India Hackathon, that’s when we came to know about student-run hackathons in India. Honestly, it was a new concept for all of us and seeing the sponsors, plan and all seemed very promising. We applied to various hackathons, got selected, however, we couldn’t attend any of those due to some or the other reasons.</summary></entry><entry><title type="html">ns-3 GSoC 2019 Report</title><link href="http://localhost:4000/gsoc19-report/" rel="alternate" type="text/html" title="ns-3 GSoC 2019 Report" /><published>2019-08-25T21:32:40+05:30</published><updated>2019-08-25T21:32:40+05:30</updated><id>http://localhost:4000/gsoc19-report</id><content type="html" xml:base="http://localhost:4000/gsoc19-report/">&lt;h1 id=&quot;introduction&quot;&gt;Introduction&lt;/h1&gt;
+
+&lt;p&gt;Google Summer of Code has been an amazing opportunity for me to be part of the open source culture and contribute to the community. It was an amazing journey with a lot of hurdles once the college started (placements, academics, extra-curricular), but the help and support from the mentors had been amazing and could pass through it. Super thankful to my mentors &lt;a href=&quot;https://github.com/abhijithanilkumar/&quot;&gt;@abhijithanilkumar&lt;/a&gt; and &lt;a href=&quot;https://github.com/adeepkit01&quot;&gt;@adeepkit01&lt;/a&gt; for their continuous guidance and help throughout the period. I would also like to thank &lt;a href=&quot;http://www.tomh.org/&quot;&gt;@tomh&lt;/a&gt; sir - the ns-3 Organization Admin for his valuable guidance and suggestions.&lt;/p&gt;
+
+&lt;h1 id=&quot;project-outline&quot;&gt;Project Outline&lt;/h1&gt;
+
+&lt;p&gt;&lt;strong&gt;Project:&lt;/strong&gt; Improving the ns-3-AppStore and Linking with Bake.&lt;/p&gt;
+
+&lt;p&gt;The project plan for each period was as follows:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;strong&gt;Community Bonding&lt;/strong&gt; - Get familiar with the codebase of the AppStore and the Bake build system.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Phase 1&lt;/strong&gt; - Port the ns-3-AppStore to the latest version of Django &amp;amp; to Python3, Build the REST API for install for bake to interact with the AppStore, and adding the &lt;code class=&quot;highlighter-rouge&quot;&gt;install&lt;/code&gt; command to Bake.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Phase 2&lt;/strong&gt; - Adding the &lt;code class=&quot;highlighter-rouge&quot;&gt;update&lt;/code&gt; command line option to Bake, Add OAuth support for Gitlab &amp;amp; Github to the AppStore, download statistics for each extension.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Phase 3&lt;/strong&gt; - Multi Threaded Commenting, Dependency Management for the Apps, Improve the Ratings UI.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;pull-requests&quot;&gt;Pull Requests&lt;/h2&gt;
+
+&lt;p&gt;This section covers the actual work done during the GSoC Period in terms of contributed code/documentation/tests.&lt;/p&gt;
+
+&lt;h3 id=&quot;community-bonding-period&quot;&gt;Community Bonding Period&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/abhijithanilkumar/ns-3-AppStore/pull/45&quot;&gt;#45&lt;/a&gt;: This PR added documentation for the users on the ns-3-AppStore&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;phase-1&quot;&gt;Phase 1&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/abhijithanilkumar/ns-3-AppStore/pull/47&quot;&gt;#47&lt;/a&gt;: This PR ported the ns-3-AppStore to the latest version of Django &amp;amp; to Python 3.6, and code converted to follow PEP8 Guidelines&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/abhijithanilkumar/ns-3-AppStore/pull/48&quot;&gt;#48&lt;/a&gt;: This PR added the install and search REST APIs for the bake command line to interact.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/abhijithanilkumar/ns-3-AppStore/pull/48&quot;&gt;#48&lt;/a&gt;: Documented the REST APIs, setup rate limiting for the APIs to avoid any attacks.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://gitlab.com/nsnam/bake/merge_requests/2&quot;&gt;#2&lt;/a&gt;: This PR added the &lt;code class=&quot;highlighter-rouge&quot;&gt;getconf&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;install&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;search&lt;/code&gt; options to Bake build System.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;phase-2&quot;&gt;Phase 2&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://gitlab.com/nsnam/bake/merge_requests/2&quot;&gt;#2&lt;/a&gt;: Added regression tests for the command line capabilities added in Bake.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/abhijithanilkumar/ns-3-AppStore/pull/48&quot;&gt;#48&lt;/a&gt;: This PR modified the Search API to use Pagination.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/abhijithanilkumar/ns-3-AppStore/pull/49&quot;&gt;#49&lt;/a&gt;: This PR added the filtering techniques with a minimal UI one-click for Fork/Modules/All.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/abhijithanilkumar/ns-3-AppStore/pull/52&quot;&gt;#52&lt;/a&gt;: Thus PR added the download count per release and per date for each app whenever a getconf/install option is triggered.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/abhijithanilkumar/ns-3-AppStore/pull/53&quot;&gt;#53&lt;/a&gt;: This PR updated the exisiting Search API to POST Request to take the input parameters of the configured ns versions and the keyword to search&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://gitlab.com/nsnam/bake/merge_requests/2&quot;&gt;#2&lt;/a&gt;: This PR updated the bake search functionality to get the apps based on the currently enabled ns versions.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;phase-3&quot;&gt;Phase 3&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/abhijithanilkumar/ns-3-AppStore/pull/53&quot;&gt;#53&lt;/a&gt;: This PR modified the Install API to POST Request to take the input parameters of the configured ns version and the module name and the version.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://gitlab.com/nsnam/bake/merge_requests/2&quot;&gt;#2&lt;/a&gt;: This PR updated the bake &lt;code class=&quot;highlighter-rouge&quot;&gt;getconf&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;install&lt;/code&gt; functionality to download the module only if the ns version is compatible with the module versions.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/abhijithanilkumar/ns-3-AppStore/pull/55&quot;&gt;#55&lt;/a&gt;: This PR added the Dependency Management to show the dependencies of the App from the bakefile of the latest version.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/abhijithanilkumar/ns-3-AppStore/pull/56&quot;&gt;#56&lt;/a&gt;: This PR fixed the busted rating UI by using a different package and with various features. Added average count and the number of ratings.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/abhijithanilkumar/ns-3-AppStore/pull/58&quot;&gt;#58&lt;/a&gt;: Fixed the issues in the GCI Tests and added tests for the Django REST APIs made.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;miscellaneous-work&quot;&gt;Miscellaneous Work&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.nsnam.org/wiki/GSOC2019AppStore&quot;&gt;Wiki: Weekly Updates&lt;/a&gt;: Weekly Updates of the work during the GSoC 2019 time period.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://docs.google.com/document/d/1GBUEQYbSuYFPxoKXJLZaqhRlh0xkNwizFPmNVWEmi5Y/edit?usp=sharing&quot;&gt;Commenting Proposal&lt;/a&gt;: Prepared a proposal for various commenting features suitable for the ns-3-AppStore.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://mishal23.github.io/journey-to-gsoc-2019/&quot;&gt;Blog: Journey to GSoC 2019&lt;/a&gt;: A bit about my journey to getting accepted for GSoC 2019 with the ns-3 organization.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://mishal23.github.io/my-gsoc-project/&quot;&gt;Blog: My GSoC Project&lt;/a&gt;: A brief into the project, the organization and the gains out of the community bonding period.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://docs.google.com/document/d/1urES5k0sJl24u2RE7dkpNdGaISCSvdvEKEDp5h5lYgA/edit?usp=sharing&quot;&gt;Phase 1 WorkFlow Document&lt;/a&gt;: A workflow document for all the tasks done during Phase 1.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://docs.google.com/document/d/1PXJUNT2Er2s8jyFOE2VeAjlXGl7ZwUoQFuryH5VYfBE/edit?usp=sharing&quot;&gt;Phase 2 WorkFlow Document&lt;/a&gt;: A workflow document for all the tasks done during Phase 2.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Inline code documentation was done for most of the codes, hence documentation was taken care.&lt;/p&gt;
+
+&lt;h3 id=&quot;what-is-left&quot;&gt;What is left?&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Hosting Commento - A lot of effort was made to host commento locally both with nginx as well as docker, however wasn’t successfull enough to get it working perfectly (locally css &amp;amp; js weren’t loading). Hopefully, when we setup the website on the server will be able to get commento hosted and get it working fully. Will be trying to host Commento on AWS Instance as well.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;tasks-done-apart-from-the-proposed&quot;&gt;Tasks done apart from the Proposed&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;On discussion with the mentors, they suggested to give priority to adding tests for the REST APIs, hence concentrated more on it and got it done alongwith fixing the GCI Tests since they were written in older version of Django, however for GSoC we migrated to the latest version of Django.&lt;/li&gt;
+  &lt;li&gt;Filters for Fork/Modules/All was something needed by the community as per the discussions in the WNS3-2019, hence added a minimal one-click UI for that.&lt;/li&gt;
+  &lt;li&gt;Search Functionality in Bake wasn’t proposed, however we felt that it would be good to have the feature and hence added that to Bake.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;future-work&quot;&gt;Future Work&lt;/h3&gt;
+
+&lt;p&gt;After discussion with my mentor &lt;a href=&quot;https://github.com/abhijithanilkumar/&quot;&gt;@abhijithanilkumar&lt;/a&gt;, the possible future work for the ns-3-AppStore is as follows:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Deploy the updated ns-3-AppStore on the new server.&lt;/li&gt;
+  &lt;li&gt;Add code coverage for the AppStore and add tests for the missing code.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Will be glad to help out in case any issues come up or any new feature requests are needed by the ns-3 Community.&lt;/p&gt;
+
+&lt;p&gt;On the bake side, although the main part of &lt;code class=&quot;highlighter-rouge&quot;&gt;getconf&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;install&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;search&lt;/code&gt; was done, there are a lot of other functionalities expected on the Bake side which was out of scope for GSoC. Since, I’ve got familiar with the Bake codebase, I’ll be happy to contribute the feature requests from the ns-3 Community.&lt;/p&gt;
+
+&lt;h2 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h2&gt;
+
+&lt;p&gt;An amazing journey comes to an end. I’m very thankful to all my friends, mentors and my parents and sister who helped and kept me motivated during the entire journey. Though GSoC 2019 comes to an end, I’m looking forward to contribute to Open Source and ns-3 Bake &amp;amp; AppStore Project.&lt;/p&gt;</content><author><name></name></author><summary type="html">Introduction</summary></entry><entry><title type="html">Chaos Engineering</title><link href="http://localhost:4000/chaos-engineering/" rel="alternate" type="text/html" title="Chaos Engineering" /><published>2017-12-19T21:32:40+05:30</published><updated>2017-12-19T21:32:40+05:30</updated><id>http://localhost:4000/chaos-engineering</id><content type="html" xml:base="http://localhost:4000/chaos-engineering/">&lt;h2 id=&quot;introduction&quot;&gt;Introduction&lt;/h2&gt;
+
+&lt;p&gt;Many of us would have heard about the two major WhatsApp outages recently when it was down for about an hour each time. For the general public, WhatsApp was down for an hour. But for software engineers, WhatsApp was back within an hour. This made me wonder what it was, that enabled the engineers working at WhatsApp to restore the services so fast.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/whatsapp-outage.png&quot; alt=&quot;WhatsApp Outage&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;What if I tell you, it was a very &lt;strong&gt;normal&lt;/strong&gt; turbulent production failure for them. Yes, huge companies like &lt;a href=&quot;https://www.netflix.com/in/&quot;&gt;Netflix&lt;/a&gt;, &lt;a href=&quot;https://www.facebook.com/&quot;&gt;Facebook&lt;/a&gt; and &lt;a href=&quot;https://www.google.co.in/&quot;&gt;Google&lt;/a&gt; use a method of engineering called &lt;strong&gt;Chaos Engineering&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;To explain Chaos Engineering in layman terms :
+To be good at something , if one practices it in extreme conditions then it would get easier for the person to perform in normal conditions. Similarly if a software engineer has seen extreme conditions in production, it becomes a challenge for him/her to code in such a way that their service fails if such an extreme condition occurs. If at all it comes, they would have experienced it before and so it becomes easy to bring the services back.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/chaos-engineering.png&quot; alt=&quot;Chaos Engineering&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;principle-of-chaos-engineering&quot;&gt;Principle of Chaos Engineering&lt;/h2&gt;
+
+&lt;p&gt;The main idea of Chaos Engineering is to intentionally inject failures so as to be prepared for the worst conditions.
+A formal definition for Chaos Engineering given by Netflix:&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;Chaos Engineering is the discipline of experimenting on a distributed system in order to build confidence in the system’s capability to withstand turbulent conditions in production.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Chaos Engineering can be thought of as the facilitation of experiments to uncover systemic weaknesses. These experiments follow four steps:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Start by defining ‘steady state’ as some measurable output of a system that indicates normal behavior.&lt;/li&gt;
+  &lt;li&gt;Hypothesize that this steady state will continue in both the control group and the experimental group.&lt;/li&gt;
+  &lt;li&gt;Introduce variables that reflect real world events like servers that crash, hard drives that malfunction, network connections that are severed, etc.&lt;/li&gt;
+  &lt;li&gt;Try to disprove the hypothesis by looking for a difference in steady state between the control group and the experimental group.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;The harder it is to disrupt the steady state, the more confidence we have in the behavior of the system. If a weakness is uncovered, we now have a target for improvement before that behavior manifests in the system at large.
+In layman terms: Break your system, see the difference between steady state and experimental state, lesser the difference, lesser it will break in production. If the difference is more, you have a target for improvement before actually experiencing it in production.&lt;/p&gt;
+
+&lt;h2 id=&quot;practical-use&quot;&gt;Practical Use&lt;/h2&gt;
+
+&lt;p&gt;Netflix, a pioneer in the field of Chaos Engineering, uses a tool called Chaos Monkey. It randomly picks a server from production deployment on AWS (Amazon Web Services) and kills it. Executives at Netflix knew that server failures are guaranteed to happen and they wanted servers to fail during working-hours so that it could be fixed it in the presence of their engineers. They knew that they could rely on engineers to build resilient solutions if they were given context to expect servers to fail. If they could align their engineers to build services that survive a server failure, then when it actually happened, it wouldn’t be a big deal.&lt;/p&gt;
+
+&lt;h2 id=&quot;how-can-it-help-you&quot;&gt;How can it help you?&lt;/h2&gt;
+
+&lt;p&gt;Suppose your team has built the next wave of advancement the whole world has been waiting for. You are to launch your service but there are questions rumbling in your mind:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Is your application ready for production?&lt;/li&gt;
+  &lt;li&gt;Will the system survive the failures of other companies you are dependent on?&lt;/li&gt;
+  &lt;li&gt;Will the system survive the failure of your own configurations?&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The truth is : You can never be sure . There will always be something that can be wrong or will go wrong. Some things aren’t in your control like denial-of-service attacks or network failures. Sometimes, bad things just happen.&lt;/p&gt;
+
+&lt;p&gt;Possibly The only solution for it is to build quality software that is resilient to failures. As the saying goes - &lt;em&gt;“Hope for the best, prepare for the worst”&lt;/em&gt;
+But how can your team be sure that your system is ready for production and is ready to face all difficulties/failures? &lt;em&gt;This is where Chaos Engineering comes into picture.&lt;/em&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;does-this-seem-like-testing&quot;&gt;Does this seem like testing?&lt;/h2&gt;
+
+&lt;p&gt;It may indeed sound like it, but it definitely isn’t testing. Chaos Engineering is an experiment on the production environment and there is certainly no way to accurately duplicate production environment at scale (as in testing). The experiment itself is going to have a systemic effect that could change your results, so the only way to accurately build conflict in the system that you have now is to experiment on it.&lt;/p&gt;
+
+&lt;h2 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h2&gt;
+
+&lt;p&gt;The purpose of Chaos Engineering is to experience disastrous conditions. This might sound like a difficult task and it does require a lot of creativity but the extra effort is worth it. You must inject failures in your system such that certain part of your infrastructure becomes unavailable. Some examples are : terminate cluster machines, kill worker processes, delete database tables, cut off access to internal-external services, etc. Later you can also simulate events capable of disrupting steady state like high latency due to slow networks.&lt;/p&gt;
+
+&lt;p&gt;These experiments are a bit difficult but whatever you decide to do, you’ll be surprised at how much you can learn from chaos.
+There are a lot of tools worth mentioning :&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/Netflix/chaosmonkey&quot;&gt;Chaos Monkey&lt;/a&gt; - A resiliency tool that helps applications tolerate random instance failures&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/Netflix/SimianArmy&quot;&gt;The Simian Army&lt;/a&gt; - A suite of tools for keeping your cloud operating in top form&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/asobti/kube-monkey&quot;&gt;kube-monkey&lt;/a&gt; - An implementation of Netflix’s Chaos Monkey for Kubernetes clusters&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.gremlin.com/&quot;&gt;Gremlin Inc.&lt;/a&gt; - Failure as a Service&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/alexei-led/pumba&quot;&gt;Pumba&lt;/a&gt; - Chaos testing and network emulation for Docker containers (and clusters)&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/chaostoolkit/chaostoolkit&quot;&gt;Chaos Toolkit&lt;/a&gt; - A chaos engineering toolkit to help you build confidence in your software system&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/github/orchestrator&quot;&gt;orchestrator&lt;/a&gt; - MySQL replication topology management and HA&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;I hope you got an idea about Chaos Engineering - a powerful approach to build resilient systems!&lt;/p&gt;
+
+&lt;!-- You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
+
+To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
+
+Jekyll also offers powerful support for code snippets:
+
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Hi, &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'Tom'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints 'Hi, Tom' to STDOUT.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+
+Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
+
+[jekyll-docs]: https://jekyllrb.com/docs/home
+[jekyll-gh]:   https://github.com/jekyll/jekyll
+[jekyll-talk]: https://talk.jekyllrb.com/
+ --&gt;</content><author><name></name></author><summary type="html">Introduction</summary></entry></feed>

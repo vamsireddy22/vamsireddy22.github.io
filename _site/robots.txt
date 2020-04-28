@@ -1,0 +1,2 @@
+Sitemap: https://vamsireddy22github.io/sitemap.xml
+Sitemap: http://vamsireddy22.github.io/sitemap.xml
