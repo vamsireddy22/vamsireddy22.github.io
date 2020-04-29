@@ -6,42 +6,33 @@
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 
 <url>
-  <loc>https://mishal23.github.io/</loc>
+  <loc>https://vamsireddy22.github.io/</loc>
   <lastmod>2019-06-17T12:23:10+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
-  <loc>https://mishal23.github.io/about/</loc>
+  <loc>https://vamsireddy22.github.io/about/</loc>
   <lastmod>2019-06-17T12:23:10+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://mishal23.github.io/projects/</loc>
+  <loc>https://vamsireddy22.github.io/projects/</loc>
   <lastmod>2019-06-17T12:23:10+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://mishal23.github.io/contact/</loc>
+  <loc>https://vamsireddy22.github.io/contact/</loc>
   <lastmod>2019-06-17T12:23:10+00:00</lastmod>
   <priority>0.80</priority>
 </url>
-<url>
-  <loc>https://mishal23.github.io/my-gsoc-project/</loc>
+ <url>
+  <loc>https://vamsireddy22.github.io/journey-of-hackverse/</loc>
   <lastmod>2019-06-17T12:23:10+00:00</lastmod>
   <priority>0.80</priority>
 </url>
+
 <url>
-  <loc>https://mishal23.github.io/journey-to-gsoc-2019/</loc>
-  <lastmod>2019-06-17T12:23:10+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://mishal23.github.io/alexa-fact-skill/</loc>
-  <lastmod>2019-06-17T12:23:10+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://mishal23.github.io/chaos-engineering/</loc>
+  <loc>https://vamsireddy22.github.io/chaos-engineering/</loc>
   <lastmod>2019-06-17T12:23:10+00:00</lastmod>
   <priority>0.80</priority>
 </url>
