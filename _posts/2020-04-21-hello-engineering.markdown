@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Hello Folk's"
+title:  "Hello Folks"
 date:   2020-04-20 21:32:40 +0530
 img:
 description: Why I am here today? You wanna know? Then why you are starring at me? Hit me up!
