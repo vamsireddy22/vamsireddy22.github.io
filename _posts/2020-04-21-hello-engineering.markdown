@@ -22,7 +22,7 @@ And I always follow the motto:
 
 And coming to my website I started working on 18-04-2020 after seeing some of my friends portfolio I thought it would better even if I start blogging to share my knowledge. Then I contacted my friend whome i met at HackVerse hackathon. He shared some sources for websites among those I really loved this one and also said to go with [Jekyll](https://jekyllrb.com) to develop your website. I started reading [Jekyll](https://jekyllrb.com/docs/) documentation, it was a really worth reading and coming to deployment,i went with github [GitHub Pages](https://pages.github.com/).
 
-> I would like to release my website on May 1, cause that day is dedicated to people who work day and night to provide people with more comfort. This blog is my small dedication to all white collored labours out there who work so hard to Built something new, innovative for enrichment of human kind.
+> I released my website on May 1, cause the day is dedicated to people who work day and night to provide people with more comfort. This blog is my small dedication to all white collored labours out there who work so hard to Built something new, innovative for enrichment of human kind.
 
 ## Conclusion
 
