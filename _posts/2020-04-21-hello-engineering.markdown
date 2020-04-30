@@ -1,18 +1,18 @@
 ---
 layout: post
-title:  "Here's Why"
+title:  "Hello Folk's"
 date:   2020-04-20 21:32:40 +0530
 img:
-description: Why I am here today? you wanna know then why you are starring at me hit me up!
+description: Why I am here today? You wanna know? Then why you are starring at me? Hit me up!
 ---
 
-Since my childwood I am tired of listening the words **"You can't do that!"**. After listening this word i want shout like  **Yes, I  am, I can, I will if not me then who?**. 
+Since my childhood I am tired of listening to words like **"You can't do that!"**. After listening so, i wanted to shoutout **Yes, I  am, I can, I will if not me then who?**. 
 
-Okay **Whom I am ?**, ho sorry How would you know that? 
+Okay **Who am I ?**, oops sorry How would you know that? 
 
 ![vamsi]({{"/assets/img/vamsi.jpg"}})
 
-Well I am **Vamsi** an undergraduate student in [GPREC](https://gprec.ac.in). I know you are not expecting that from me. Here, we go I am a self-thought minded guy, I always follow 3 E's principle. Well what is 3 E's principle?
+Well I am **Vamsi** an undergraduate student at [GPREC](https://gprec.ac.in). I know you were not expecting that from me. Here we go, I am a self-thought minded guy, I always follow 3 E's principle. Well what is my 3 E's principle?
 >1. Explore
 >2. Experiment
 >3. Experience 
@@ -20,9 +20,9 @@ Well I am **Vamsi** an undergraduate student in [GPREC](https://gprec.ac.in). I 
 And I always follow the motto:
 ![Half Done]({{"/assets/img/halfdone.jpg"}})
 
-And coming to my website I started working on 18-04-2020 after seeing some of my friends portfolio I thought it would better even if I start blog to share my knowledge. Then I contacted my friend who met in HackVerse he shared some sources for websites among those I really loved this one and also he said that go with [Jekyll](https://jekyllrb.com) to develop your website. I started reading [Jekyll](https://jekyllrb.com/docs/) documentation, it was a really worthfull reading and coming to deploying I choosen [GitHub Pages](https://pages.github.com/). If you love my website then why late? download code using following commands in your terminal and start designing: 
+And coming to my website I started working on 18-04-2020 after seeing some of my friends portfolio I thought it would better even if I start bloggin to share my knowledge. Then I contacted my friend whome i met at HackVerse.He shared some sources for websites among those I really loved this one and also said to go with [Jekyll](https://jekyllrb.com) to develop your website. I started reading [Jekyll](https://jekyllrb.com/docs/) documentation, it was a really worth reading and coming to deployment,i went with github [GitHub Pages](https://pages.github.com/).
 
->- git clone https://github.com/vamsireddy22/vamsireddy22.github.io.git
+> I would like to release my website on May 1, cause that day is dedicated to people who work day and night to provide people with more comfort. This blog is my small dedication to all white collored labours out there who work so hard to Built something new, innovative for enrichment of human kind.
 
 ## Conclusion
 
