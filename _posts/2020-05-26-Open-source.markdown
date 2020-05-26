@@ -10,7 +10,7 @@ In December one of my friend said that she was preparing for [Google Summer of C
 
 ![oss]({{"/assets/img/oss.jpg"}})
 
-In recent times I started contributing to [Jekyll](https://jekyllrb.com/) actually it contains blogs and portfolio themes. I made two pull requests for the two themes. 
+In recent times I started contributing to [Jekyll](https://jekyllrb.com/) actually it contains blog and portfolio themes. I made two pull requests for the two themes. 
 
 An open source project is where the code to a certain project is completely open for everyone. That means that anybody can readily see the code that went into a project. Open source contribution means contributing to the open source in any manner like changing coding snippets, fixing bugs, changing drafting etc., 
 
