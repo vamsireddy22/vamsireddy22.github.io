@@ -1,30 +1,43 @@
 ---
 layout: post
-title:  "Open source"
+title:  "Open source contribution"
 date:   2020-05-26 21:32:40 +0530
 img:
 description: "If you have strong desire to make the better world with your skills, you are thinking you can do wonders with your skills but don't know where to start.."
 ---
 
-Since my childhood I am tired of listening to words like **"You can't do that!"**. After listening so, i wanted to shoutout **Yes, I  am, I can, I will if not me then who?**. 
+In December one of my friend said that she was preparing for [Google Summer of Code](https://summerofcode.withgoogle.com/) formally known as GSoC for the past 5 months, I asked her what is GSoC Is it any company? she laughed and asked are you kidding?. I said no I am serious I don't about it I heard name for the first time. Then she started explaining about it and I am shocked. I said ok then I will also participate, she said this not a small project! you have to do some research then she suggested to start open source contribution for the projects then think about GSoC. That is first time I heard word **OPEN SOURCE**.
 
-Okay **Who am I ?**, oops sorry How would you know that? 
+![oss]({{"/assets/img/oss.jpg"}})
 
-![vamsi]({{"/assets/img/vamsi.jpg"}})
+In recent times I started contributing to [Jekyll](https://jekyllrb.com/) actually it contains blogs and portfolio themes. I made two pull requests for the two themes. 
 
-Well I am **Vamsi** an undergraduate student at [GPREC](https://gprec.ac.in). I know you were not expecting that from me. Here we go, I am a self-thought minded guy, I always follow 3 E's principle. Well what is my 3 E's principle?
->1. Explore
->2. Experiment
->3. Experience 
+An open source project is where the code to a certain project is completely open for everyone. That means that anybody can readily see the code that went into a project. Open source contribution means contributing to the open source in any manner like changing coding snippets, fixing bugs, changing drafting etc., 
 
-And I always follow the motto:
-![Half Done]({{"/assets/img/halfdone.jpg"}})
+A small example which will help you to understand the what exactly open source. Did you ever felt why can't it would be like this? while using any application or product. Just imagine if you are enough capable to change and that company is also providing the facility to enhance the user requirememts and needs. For exampe While using VLC player in laptop I felt why doesn't VLC player contains Youtube, Netflix, Amazon Prime cloning options just imagine all these options in VLC. If you wish you can propose all those updations along with action plan to VLC if they accepted then you can start coding and submit the project with changes made.   
 
-And coming to my website I started working on 18-04-2020 after seeing some of my friends portfolio I thought it would better even if I start blogging to share my knowledge. Then I contacted my friend whom i met at HackVerse hackathon. He shared some sources for websites among those I really loved this one and he also said go for [Jekyll](https://jekyllrb.com) to develop your website. I started reading [Jekyll](https://jekyllrb.com/docs/) documentation, it was a really worth reading and coming to deployment,i went with github [GitHub Pages](https://pages.github.com/).
+I know what you are thinking **Are we have to work freely?** and answer is **YES!**. Because all the open source projects have no fixed employees to workers for salaries. What you will get if you do work for them? I tell you three things: 
 
-> I released my website on May 1, cause the day is dedicated to people who work day and night to provide people with more comfort. This blog is my small dedication to all white collored labours out there who work so hard to Built something new, innovative for enrichment of human kind.
+1. There are a lot of enthusiasts who simply believe that code should be open. They're idealists who want to make the world a better place, and it drives them to contribute code. 
+2. I will can say open source is a great start for any beginner might fixing minor things, suhc as draft mistakes, small bugs, sending pull requests, or even writing a piece of documentation. 
+3. Main thing as a developer having a community helps you a lot in growth interms of both career as well as personal. An active open source community where you can meet like-minded people and supportes. You increase your chances of being noticed by potential employers of tech giant companies.
+
+I listed below some of the big open source projects category wise. 
+
+![osp]({{"/assets/img/osp.png"}})
+
+How to start contributing to existing open source projects?
+
+Get to know about [GitHub](https://github.com/). GitHub is the most popular platform for  open source collaboration, so you will probably use it when exploring the world of open source anyhow I'm not going to talk about the GitHub and Git commands you can search it on google and will get some video lectures on Youtube. 
+
+On GitHub, you can contribute to projects by submitting issues and contributing code. **Submitting issues** means sending messages about errors in appications and suggesting ways to fix them. **Contributing code** involves sending pull requests with your corrections and improvements.
+
+And also you can easily join an open source project by subscribing to the mailing lists on official websites or on GitHub pages. After being accepted to the list, you can communicate with tea members and get support if necessary. 
+
 
 ## Conclusion
 
-The idea of creating website and starting blog was definitely worth it and moreover, got to pick up some new skills. Would recommend anyone to start blogging if you have enough knowledge because sharing knowledge and helping others is bliss, don't worry about your english some basic write up skills are enough and what not to say hold someone for proofreading your golden thoughts before publishing. There are certain features and fixes which I plan to do in due time. If you need any further help, feel free to take a look at the [repo](https://github.com/vamsireddy22/vamsireddy22.github.io.) or [contact me](https://vamsireddy22.github.io/contact) If there are any issues you come across, please do open up [here](https://github.com/vamsireddy22/vamsireddy22.github.io/issues) or would love it if you fix it :)
+Open source projects bring many benefits to those who participate in them, and such experience is great for your future. BY joining a community of like-minded people and polishing up your skills, you can give yourself a step up as an aspiring developer.
+ 
+
 
