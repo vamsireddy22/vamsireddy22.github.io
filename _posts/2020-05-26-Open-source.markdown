@@ -6,7 +6,7 @@ img:
 description: "If you have strong desire to make the better world with your skills, you are thinking you can do wonders with your skills but don't know where to start.."
 ---
 
-In December one of my friend said that she was preparing for [Google Summer of Code](https://summerofcode.withgoogle.com/) formally known as GSoC for the past 5 months, I asked her what is GSoC Is it any company? she laughed and asked are you kidding?. I said no I am serious I don't about it I heard name for the first time. Then she started explaining about it and I am shocked. I said ok then I will also participate, she said this not a small project! you have to do some research then she suggested to start open source contribution for the projects then think about GSoC. That is first time I heard word **OPEN SOURCE**.
+In December one of my friend said that she is preparing for [Google Summer of Code](https://summerofcode.withgoogle.com/) formally known as GSoC for the past 5 months, I asked her what is GSoC Is it any company? she laughed and asked are you kidding?. I said no I am serious I don't about it I heard name for the first time. Then she started explaining about it and I am shocked. I said ok then I will also participate, she said this not a small project! you have to do some research, she suggested to start open source contribution for the projects then think about proposal to GSoC. For the first time I heard word **Open source**.
 
 ![oss]({{"/assets/img/oss.jpg"}})
 
