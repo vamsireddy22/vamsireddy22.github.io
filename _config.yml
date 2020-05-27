@@ -21,9 +21,6 @@ email: obulreddy1999@gmail.com
 # Comments
 discus-identifier: vamsi22-1 # Add your Disqus identifier
 
-#analytics
-analytics : 157178493
-
 # Paginate
 paginate: 5
 paginate_path: /page:num/
